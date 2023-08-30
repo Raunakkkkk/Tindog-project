@@ -1,2 +1,3 @@
 # Tindog-project
-Tinder for Dogs using Html,CSS,bootstrap.
+Tinder like application for dogs frontend made   using Html,CSS and Bootstrap.
+
