@@ -1,0 +1,67 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+
+display: flex;
+justify-content: center;
+margin-top:5px;
+border-radius: 50%;
+height: 100px;
+}
+.profile-img>img{
+  border-radius: 50%;
+height: 100px;
+}
+
+.containerrr{
+  display: grid;
+  grid-template-columns:100% ;
+  grid-template-rows: 100px 100px 100px;
+background-color: ghostwhite; 
+  display: 60vh;
+
+}
+    .heading{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-left: 80px;
+      padding-right: 80px;
+
+    }
+   
+.dogg{
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+.sponser img{
+height: 30px;
+}
+.bc{
+text-align: center;
+background-color: ghostwhite;
+padding-bottom: 40px;
+}
